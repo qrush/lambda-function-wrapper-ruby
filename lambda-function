@@ -1,2 +1,4 @@
-#!/usr/bin/env python
-print "Goodbye, World!"
+#!/bin/bash
+set -e
+echo "Testing Ruby!"
+./mruby -e "puts 'Hello, Lambda from Ruby!'"
